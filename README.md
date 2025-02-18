@@ -8,3 +8,4 @@ pnpm -C ./frontend run dev
 ```
 fastapi dev ./backend/main.py
 ```
+![alt text](IMG_4941.png)
