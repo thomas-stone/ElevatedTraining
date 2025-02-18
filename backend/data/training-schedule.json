@@ -233,6 +233,591 @@
           "high": "21%"
         }
       }
+    },
+    "7": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SMI2",
+        "thursday": null,
+        "friday": "SAE2",
+        "saturday": null,
+        "sunday": "ST7"
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF9",
+        "wednesday": "CRE11",
+        "thursday": "CF11",
+        "friday": null,
+        "saturday": "CMI1",
+        "sunday": null
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RCI9",
+        "wednesday": null,
+        "thursday": null,
+        "friday": "RRE5",
+        "saturday": null,
+        "sunday": "RF12"
+      },
+      "weekly": {
+        "swim": "6750",
+        "cycle": "6:00",
+        "run": "3:24",
+        "total": "11:28",
+        "intensity": {
+          "low": "80%",
+          "high": "20%"
+        }
+      }
+    },
+    "8": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SMI2",
+        "thursday": null,
+        "friday": "SSP4",
+        "saturday": null,
+        "sunday": "SSI2"
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CFO17",
+        "wednesday": "CRE10",
+        "thursday": "CF11",
+        "friday": null,
+        "saturday": "CMI2",
+        "sunday": null
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RAN3",
+        "wednesday": null,
+        "thursday": "RMI2",
+        "friday": "RRE3",
+        "saturday": null,
+        "sunday": "RF12"
+      },
+      "weekly": {
+        "swim": "7150",
+        "cycle": "6:29",
+        "run": "3:46",
+        "total": "12:25",
+        "intensity": {
+          "low": "79%",
+          "high": "21%"
+        }
+      }
+    },
+    "9": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SAE4",
+        "thursday": null,
+        "friday": "SMI4",
+        "saturday": null,
+        "sunday": "SSP5"
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CFO17",
+        "wednesday": "CRE10",
+        "thursday": "CF11",
+        "friday": null,
+        "saturday": "CMI2",
+        "sunday": null
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RT12",
+        "wednesday": null,
+        "thursday": "RSP18",
+        "friday": "RRE4",
+        "saturday": null,
+        "sunday": "RF16"
+      },
+      "weekly": {
+        "swim": "7850",
+        "cycle": "6:29",
+        "run": "4:03",
+        "total": "12:54",
+        "intensity": {
+          "low": "79%",
+          "high": "21%"
+        }
+      }
+    },
+    "10": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SMI1",
+        "thursday": null,
+        "friday": "STT1",
+        "saturday": null,
+        "sunday": "SF3"
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF3",
+        "wednesday": null,
+        "thursday": "CT31",
+        "friday": null,
+        "saturday": "CFF18",
+        "sunday": null
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RAN3",
+        "wednesday": null,
+        "thursday": null,
+        "friday": null,
+        "saturday": "RT19",
+        "sunday": null
+      },
+      "weekly": {
+        "swim": "5350",
+        "cycle": "4:30",
+        "run": "2:30",
+        "total": "8:39",
+        "intensity": {
+          "low": "81%",
+          "high": "19%"
+        }
+      }
+    },
+    "11": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SCI11",
+        "thursday": null,
+        "friday": "SAE1",
+        "saturday": null,
+        "sunday": "ST4"
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF10",
+        "wednesday": "CRE10",
+        "thursday": "CCI15",
+        "friday": null,
+        "saturday": "CAE36",
+        "sunday": null
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RCI3",
+        "wednesday": null,
+        "thursday": "RF8",
+        "friday": null,
+        "saturday": null,
+        "sunday": "RAE2"
+      },
+      "weekly": {
+        "swim": "6650",
+        "cycle": "6:15",
+        "run": "3:29",
+        "total": "11:46",
+        "intensity": {
+          "low": "84%",
+          "high": "16%"
+        }
+      }
+    },
+    "12": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SSI2",
+        "thursday": null,
+        "friday": "SMI7",
+        "saturday": null,
+        "sunday": "SSP2"
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CRE10",
+        "wednesday": "CRE11",
+        "thursday": "CCI15",
+        "friday": null,
+        "saturday": "CAE36",
+        "sunday": null
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RCI3",
+        "wednesday": null,
+        "thursday": "RF9",
+        "friday": null,
+        "saturday": null,
+        "sunday": "RAE2"
+      },
+      "weekly": {
+        "swim": "7400",
+        "cycle": "6:45",
+        "run": "3:34",
+        "total": "12:34",
+        "intensity": {
+          "low": "84%",
+          "high": "16%"
+        }
+      }
+    },
+    "13": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SAE1",
+        "thursday": null,
+        "friday": "SMI4",
+        "saturday": null,
+        "sunday": "ST4"
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF10",
+        "wednesday": "CRE11",
+        "thursday": "CCI16",
+        "friday": null,
+        "saturday": "CAE8",
+        "sunday": null
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RCI3",
+        "wednesday": null,
+        "thursday": "RF4",
+        "friday": "RF6",
+        "saturday": null,
+        "sunday": "RAE10"
+      },
+      "weekly": {
+        "swim": "7600",
+        "cycle": "7:00",
+        "run": "4:09",
+        "total": "13:27",
+        "intensity": {
+          "low": "84%",
+          "high": "16%"
+        }
+      }
+    },
+    "14": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SMI1",
+        "thursday": null,
+        "friday": "STT1",
+        "saturday": null,
+        "sunday": "SF3"
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF3",
+        "wednesday": null,
+        "thursday": "CT31",
+        "friday": null,
+        "saturday": "CFF18",
+        "sunday": null
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RAN3",
+        "wednesday": null,
+        "thursday": null,
+        "friday": null,
+        "saturday": "RT19",
+        "sunday": null
+      },
+      "weekly": {
+        "swim": "5350",
+        "cycle": "4:30",
+        "run": "2:30",
+        "total": "8:39",
+        "intensity": {
+          "low": "81%",
+          "high": "19%"
+        }
+      }
+    },
+    "15": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SCI11",
+        "thursday": null,
+        "friday": "SAE1",
+        "saturday": "ST4",
+        "sunday": null
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF10",
+        "wednesday": "CRE11",
+        "thursday": null,
+        "friday": "CCI15",
+        "saturday": null,
+        "sunday": "CAE8"
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RCI3",
+        "wednesday": null,
+        "thursday": "RAE10",
+        "friday": null,
+        "saturday": "RRE3",
+        "sunday": "RF6"
+      },
+      "weekly": {
+        "swim": "6650",
+        "cycle": "7:00",
+        "run": "4:04",
+        "total": "13:06",
+        "intensity": {
+          "low": "85%",
+          "high": "15%"
+        }
+      }
+    },
+    "16": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SCI5",
+        "thursday": null,
+        "friday": "SF5",
+        "saturday": "ST6",
+        "sunday": null
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF10",
+        "wednesday": "CRE13",
+        "thursday": null,
+        "friday": "CCI15",
+        "saturday": null,
+        "sunday": "CAE8"
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RCI3",
+        "wednesday": null,
+        "thursday": "RAE6",
+        "friday": null,
+        "saturday": "RRE4",
+        "sunday": "RAE1"
+      },
+      "weekly": {
+        "swim": "7250",
+        "cycle": "7:30",
+        "run": "4:24",
+        "total": "14:06",
+        "intensity": {
+          "low": "86%",
+          "high": "14%"
+        }
+      }
+    },
+    "17": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SAE5",
+        "thursday": null,
+        "friday": "SMI1",
+        "saturday": "ST7",
+        "sunday": null
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF11",
+        "wednesday": "CRE13",
+        "thursday": null,
+        "friday": "CCI16",
+        "saturday": null,
+        "sunday": "CAE8"
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RCI3",
+        "wednesday": null,
+        "thursday": "RAE6",
+        "friday": null,
+        "saturday": "RRE5",
+        "sunday": "RAE1"
+      },
+      "weekly": {
+        "swim": "7550",
+        "cycle": "8:00",
+        "run": "4:29",
+        "total": "14:47",
+        "intensity": {
+          "low": "86%",
+          "high": "14%"
+        }
+      }
+    },
+    "18": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SMI1",
+        "thursday": null,
+        "friday": "STT1",
+        "saturday": null,
+        "sunday": "SF3"
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF3",
+        "wednesday": null,
+        "thursday": "CT12",
+        "friday": null,
+        "saturday": null,
+        "sunday": "CFF14"
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RAN3",
+        "wednesday": null,
+        "thursday": null,
+        "friday": null,
+        "saturday": "RT3",
+        "sunday": "RAE1"
+      },
+      "weekly": {
+        "swim": "5350",
+        "cycle": "4:30",
+        "run": "2:40",
+        "total": "8:49",
+        "intensity": {
+          "low": "81%",
+          "high": "19%"
+        }
+      }
+    },
+    "19": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SCI6",
+        "thursday": null,
+        "friday": "SMI1",
+        "saturday": "SAE2",
+        "sunday": null
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF11",
+        "wednesday": "CRE13",
+        "thursday": null,
+        "friday": "CCI15",
+        "saturday": null,
+        "sunday": "CAE8"
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RCI3",
+        "wednesday": null,
+        "thursday": "RAE7",
+        "friday": null,
+        "saturday": "RRE5",
+        "sunday": "RAE1"
+      },
+      "weekly": {
+        "swim": "7250",
+        "cycle": "8:00",
+        "run": "4:44",
+        "total": "14:56",
+        "intensity": {
+          "low": "87%",
+          "high": "13%"
+        }
+      }
+    },
+    "20": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SMI2",
+        "thursday": null,
+        "friday": "SCI2",
+        "saturday": "SF6",
+        "sunday": null
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CSP3",
+        "wednesday": "CRE14",
+        "thursday": null,
+        "friday": "CT30",
+        "saturday": null,
+        "sunday": "CAE2"
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RF7",
+        "wednesday": null,
+        "thursday": "RT16",
+        "friday": null,
+        "saturday": "RSP21",
+        "sunday": "RF6"
+      },
+      "weekly": {
+        "swim": "6250",
+        "cycle": "5:31",
+        "run": "3:20",
+        "total": "10:46",
+        "intensity": {
+          "low": "86%",
+          "high": "14%"
+        }
+      }
+    },
+    "21": {
+      "swim": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": "SSI1",
+        "thursday": null,
+        "friday": "SCI1",
+        "saturday": "STA1",
+        "sunday": null
+      },
+      "cycle": {
+        "monday": null,
+        "tuesday": "CF9",
+        "wednesday": null,
+        "thursday": "CFF4",
+        "friday": null,
+        "saturday": "CRE1",
+        "sunday": null
+      },
+      "run": {
+        "monday": null,
+        "tuesday": "RFF4",
+        "wednesday": null,
+        "thursday": "RF3",
+        "friday": null,
+        "saturday": "RTA1",
+        "sunday": null
+      },
+      "weekly": {
+        "swim": "4250",
+        "cycle": "2:00",
+        "run": "1:20",
+        "total": "4:38",
+        "intensity": {
+          "low": "85%",
+          "high": "15%"
+        }
+      }
     }
   }
 }
