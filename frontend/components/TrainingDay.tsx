@@ -10,9 +10,9 @@ type WorkoutDayType = {
 const TrainingDay = ({swim, cycle, run}: WorkoutDayType) => {
   return (
     <div className="grid grid-cols-1 grid-flow-row">
-        {swim ? <WorkoutCard workout={swim} color="red-500"></WorkoutCard> : null}
-        {cycle ? <WorkoutCard workout={cycle} color="blue-500"></WorkoutCard> : null}
-        {run ? <WorkoutCard workout={run} color="green-500"></WorkoutCard> : null}
+        {swim ? <WorkoutCard workout={swim} color="bg-red-200"></WorkoutCard> : null}
+        {cycle ? <WorkoutCard workout={cycle} color="bg-blue-200"></WorkoutCard> : null}
+        {run ? <WorkoutCard workout={run} color="bg-green-200"></WorkoutCard> : null}
     </div>
   );
 }
