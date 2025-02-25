@@ -1,7 +1,24 @@
 CODE,DURATION,Z1,Z2,Z3,Z4,Z5,DESCRIPTION
-BR1,90,30,60,,,,Bike 20 min Z1 2 × (Run 10 min Z2 → Bike 20 min Z2) 10 min Z1
-BR2,120,30,90,,,,Bike 20 min Z1 3 × (Run 10 min Z2 → Bike 20 min Z2) 10 min Z1
-BR3,61,15,,46,,,Bike 15 min Z1 2 × (Run 7 min Z3/3 min Z1 → Bike 10 min Z3/3 min Z1)
-BR4,89,20,,69,,,Bike 15 min Z1 3 × (Run 7 min Z3/3 min Z1 → Bike 10 min Z3/3 min Z1) 5 min Z1
-BR5,112,20,,92,,,Bike 15 min Z1 4 × (Run 7 min Z3/3 min Z1 → Bike 10 min Z3/3 min Z1) 5 min Z1
-BR6,135,20,,115,,,Bike 15 min Z1 5 × (Run 7 min Z3/3 min Z1 → Bike 10 min Z3/3 min Z1) 5 min Z1
+BR1,90,30,60,,,,"Bike 20 min Z1
+2 × (Run 10 min Z2 → Bike 20 min Z2)
+10 min Z1
+"
+BR2,120,30,90,,,,"Bike 20 min Z1
+3 × (Run 10 min Z2 → Bike 20 min Z2)
+10 min Z1
+"
+BR3,61,15,,46,,,"Bike 15 min Z1
+2 × (Run 7 min Z3/3 min Z1 → Bike 10 min Z3/3 min Z1)
+"
+BR4,89,20,,69,,,"Bike 15 min Z1
+3 × (Run 7 min Z3/3 min Z1 → Bike 10 min Z3/3 min Z1)
+5 min Z1
+"
+BR5,112,20,,92,,,"Bike 15 min Z1
+4 × (Run 7 min Z3/3 min Z1 → Bike 10 min Z3/3 min Z1)
+5 min Z1
+"
+BR6,135,20,,115,,,"Bike 15 min Z1
+5 × (Run 7 min Z3/3 min Z1 → Bike 10 min Z3/3 min Z1)
+5 min Z1
+"

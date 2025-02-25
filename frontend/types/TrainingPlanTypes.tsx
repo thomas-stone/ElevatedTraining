@@ -20,21 +20,23 @@ export type WorkoutWeekType = {
   sunday: TrainingDayType | null;
 };
 
+export type WeeklySummaryType = {
+  swim: string;
+  cycle: string;
+  run: string;
+  total: string;
+  intensity: {
+    low: string;
+    high: string;
+  }
+};
+
 export type TrainingWeekType = {
   id: number;
   swim: WorkoutWeekType;
   cycle: WorkoutWeekType;
   run: WorkoutWeekType;
-  weekly: {
-    swim: string;
-    cycle: string;
-    run: string;
-    total: string;
-    intensity: {
-      low: string;
-      high: string;
-    };
-  };
+  weekly: WeeklySummaryType;
 };
 
 export type TrainingPlanType = {

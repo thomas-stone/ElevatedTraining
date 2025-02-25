@@ -4,10 +4,10 @@ import polars as pl
 
 app = FastAPI()
 
-cycle_df = pl.read_csv("./backend/data/cycling_workout_codes.csv")
-run_df = pl.read_csv("./backend/data/running_workout_codes.csv")
-swim_df = pl.read_csv("./backend/data/swimming_workout_codes.csv")
-brick_df = pl.read_csv("./backend/data/brick_workout_codes.csv")
+cycle_df = pl.read_csv("./data/cycle_workout_codes.csv")
+run_df = pl.read_csv("./data/run_workout_codes.csv")
+swim_df = pl.read_csv("./data/swim_workout_codes.csv")
+brick_df = pl.read_csv("./data/brick_workout_codes.csv")
 
 
 @app.get("/")
@@ -18,7 +18,7 @@ async def root():
 @app.get("/week/{week_num}")
 async def get_week(week_num):
 
-    with open("./backend/data/training-schedule.json") as f:
+    with open("./data/training-schedule.json") as f:
         training_schedule = json.load(f)
 
 
@@ -28,7 +28,7 @@ async def get_week(week_num):
 @app.get("/weeks")
 async def get_weeks():
 
-    with open("./backend/data/training-schedule.json") as f:
+    with open("./data/training-schedule.json") as f:
         training_schedule = json.load(f)
 
     weeks = []

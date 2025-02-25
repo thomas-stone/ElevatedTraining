@@ -1,11 +1,12 @@
 import { TrainingWeekType } from "@/types/TrainingPlanTypes";
-import TrainingDay from "./TrainingDay";
+import TrainingDay from "@/components/training/TrainingDay";
+import SummaryCard from "@/components/training/SummaryCard";
 
 const TrainingWeek = ({ workout }: { workout: TrainingWeekType }) => {
   return (
-    <div className="col-span-9 grid grid-cols-9 justify-between border border-blue-500">
+    <div className="col-span-9 grid grid-cols-8 justify-between border border-blue-500">
       <div className="border border-red-300">
-        <h1>Week {workout.id}</h1>
+        <SummaryCard weekly={workout.weekly} week_num={workout.id}></SummaryCard>
       </div>
       <div className="border border-red-300">
         <TrainingDay swim={workout.swim.monday} cycle={workout.cycle.monday} run={workout.run.monday}></TrainingDay>
@@ -27,13 +28,6 @@ const TrainingWeek = ({ workout }: { workout: TrainingWeekType }) => {
       </div>
       <div className="border border-red-300">
         <TrainingDay swim={workout.swim.sunday} cycle={workout.cycle.sunday} run={workout.run.sunday}></TrainingDay>
-      </div>
-      <div className="border border-red-300">
-        <p>Total Time: {workout.weekly.total}</p>
-        <p>Swim: {workout.weekly.swim}</p>
-        <p>Cycle: {workout.weekly.cycle}</p>
-        <p>Run: {workout.weekly.run}</p>
-        <p>{workout.weekly.intensity.low} | {workout.weekly.intensity.high}</p>
       </div>
     </div>
   );
