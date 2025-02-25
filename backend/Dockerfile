@@ -15,5 +15,5 @@ COPY . /app
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
-EXPOSE 8080
-CMD ["fastapi", "run", "main.py", "--port", "8080"]
+EXPOSE 8085
+CMD ["fastapi", "run", "main.py", "--port", "8085"]

@@ -1,7 +1,7 @@
 import TrainingPlan from "@/components/training/TrainingPlan";
 
 export default async function Page() {
-  const data = await fetch("http://backend:8080/weeks");
+  const data = await fetch("http://backend:8085/weeks");
   const training_weeks = await data.json();
 
   return (
