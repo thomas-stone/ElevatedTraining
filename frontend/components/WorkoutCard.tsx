@@ -18,7 +18,7 @@ const WorkoutCard = ({workout, color} : WorkoutCardProps ) => {
     let workoutDescription = formatWorkout(workout.DESCRIPTION)
 
   return (
-    <Card className={`h-50 m-5 border border-green-500 ${color}`}>
+    <Card className={`h-50 w-75 md:w-full m-5 border border-gray-400 ${color}`}>
       <CardHeader>
         <CardTitle>{workout.CODE}</CardTitle>
         {workoutDescription.split("\n").map((line, i) => (

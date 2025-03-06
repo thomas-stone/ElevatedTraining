@@ -1,3 +1,4 @@
+import MobileLayout from "@/components/MobileLayout";
 import TrainingPlan from "@/components/TrainingPlan";
 
 export default async function Page() {
@@ -5,6 +6,13 @@ export default async function Page() {
   const training_weeks = await data.json();
 
   return (
-    <TrainingPlan trainingPlan={training_weeks}></TrainingPlan>
+    <div>
+      <div className="p-8 md:block hidden">
+        <TrainingPlan trainingPlan={training_weeks}></TrainingPlan>
+      </div>
+      <div className="md:hidden">
+        <MobileLayout trainingPlan={training_weeks}></MobileLayout>
+      </div>
+    </div>
   );
 }
